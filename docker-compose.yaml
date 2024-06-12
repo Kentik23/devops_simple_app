@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: simple-web-app:1.0
+    ports:
+      - "80:80"
